@@ -1,0 +1,20 @@
+/* Challenge style goes here */
+html{
+    font-size: 16px;
+}
+.heading{
+    font-size: 3em;
+}
+header{
+    width: 80%;
+    background-color: aqua;
+    border:  solid 10px blue;
+}
+header img{
+    width: 100%;
+}
+h2{
+    font-size: 2em;
+}
+/*Rem n Root ee buyu HTML iin font size iig urjuulne
+/*Em n Etseg elmentees urjuulne

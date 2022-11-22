@@ -1,0 +1,30 @@
+.title{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-evenly;
+    height: 30%;
+}
+.card{
+    width: 500px;
+    height: 700px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card img{
+    width: 50%;
+    border-radius: 50%;
+}
+.pra{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 50%;
+    justify-content: space-between;
+}
+.pra a{
+    align-self: flex-end;
+}

@@ -1,0 +1,17 @@
+ul{
+    display: flex;
+    /*display flex bhd justify content orno space between*/
+    justify-content: space-evenly;
+}
+li{
+    width: 200px;   
+    height: 300px;
+    transition: height 1s;
+    background-color: aqua;
+    margin: 20px;
+    list-style: none;
+}
+li:hover{
+    transition: height 1s;
+    height: 500px;
+}

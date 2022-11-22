@@ -1,0 +1,72 @@
+p{
+    color:black;
+}
+body{
+    background-color:yellow;
+}
+h2{
+    color: #000;
+}
+img{
+    width: 200px;
+    
+}
+a{
+    text-decoration:none ;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+}
+.Logo {
+    width: 50px;
+    border-radius: 50%;
+
+}
+h1{
+    display: inline-block;
+    margin-right: 100px;
+    
+}
+.title{
+    display: inline-block;
+}
+.hnav{
+    display: inline-block;
+    margin-left: 800px;
+}
+article{
+    display: inline-block;
+    margin: 3.5%;
+    margin-top: 0cm;
+    margin-right: 50px;
+    text-align: center;
+    
+}
+
+h3{
+ color: black;
+}
+.hmain img{
+    width: 100px;
+    display: inline-block;
+}
+.hp1{
+    display: inline-block;
+    
+}
+.section2 ol li p {
+    text-decoration: double;
+}
+main h2{
+    background-color: aqua;
+    margin-left:10px ;
+}
+.sec1 {
+    text-align: center;
+}

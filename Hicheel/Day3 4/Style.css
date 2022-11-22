@@ -1,0 +1,53 @@
+p{
+    color:black;
+}
+body{
+    background-color:yellow;
+}
+h2{
+    color: #000;
+}
+img{
+    width: 210px;
+    
+}
+a{
+    text-decoration:none ;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+}
+.Logo {
+    width: 50px;
+    border-radius: 50%;
+
+}
+h1{
+    display: inline-block;
+    
+}
+.title{
+    display: inline-block;
+}
+.hnav{
+    display: inline-block;
+}
+article{
+    display: inline-block;
+    margin: 5%;
+    margin-top: 0cm;
+    
+}
+.art1{
+    display: inline-block;
+    margin: 0%;
+}
+h3{
+ color: black;
+}

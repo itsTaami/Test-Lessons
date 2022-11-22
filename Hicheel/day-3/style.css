@@ -1,0 +1,54 @@
+p {
+  color: green;
+}
+h2 {
+  color: blue;
+}
+img {
+  width: 300px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+  margin: 10px;
+}
+.sname {
+  color: rgb(77, 77, 27);
+  background-color: bisque;
+}
+.gLink {
+  background-color: bisque;
+}
+.logo {
+  width: 50px;
+  border-radius: 50%;
+}
+h1 {
+  display: inline-block;
+}
+.title {
+  display: inline-block;
+}
+.hNav {
+  display: inline-block;
+}
+
+header .title img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.hNav ul li .nar {
+  color: red;
+}
+.nar {
+  color: orange;
+}
+#onePiece {
+  color: green;
+}

@@ -1,0 +1,168 @@
+/* Web Fonts ----------------------- */
+@font-face {
+  font-family: "goyfont";
+  src: url("../fonts/abolition-regular-webfont.woff") format("woff");
+}
+
+/* Base Styles --------------------- */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 1.25em; /* 20px on most screens */
+}
+img {
+  width: 100%; /* responsive images */
+}
+
+
+/* Main Styles --------------------- */
+
+
+/* Media Queries ------------------- */
+
+
+body{
+  margin: 0;
+
+}
+#top{
+  background: url("../img/mountains.jpg"), rgb(194, 67, 3);
+  background-blend-mode:multiply ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;  
+  padding-top: 350px;
+  
+}
+#top h1{
+  font-family: "goyfont";
+  text-align: center;
+  color: white;
+  font-size: 150px;
+  letter-spacing: 2px;
+  margin-top: 90px;
+}
+
+
+
+h1:after{
+  content: "\2193";
+  display: block;
+  color: white;
+  margin-top: 50px;
+}
+#top .title{
+  color: white;
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  margin-top: -100px;
+  font-family: "work sans";
+}
+
+main section .intro{
+  margin: 100px auto;
+  width: 50%;
+  text-align: center;
+  font-family: "work sans";
+  
+}
+.callout{
+  display: block;
+  text-align: center;
+  color: white;
+  width: 250px;
+  height: 45px;
+  border-radius: 5px 5px 5px 5px ;
+  background-color: rgba(236, 117,37);
+  background-image:linear-gradient(to right, rgb(236, 117, 37), red);
+  text-decoration: none;
+  margin: auto; 
+  padding-top: 10px;
+  cursor: pointer;
+
+  
+}
+#wildlife{
+  background: url("../img/bear.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 250px;
+  height: 70vh;
+  width: 100%;
+  max-width: 1000px;
+  margin: 100px auto;
+  border-top: solid 10px orange ;
+  border-radius: 10px 10px 0px 0px ;
+  color: white;
+  box-shadow: inset -10px -10px 10px black, inset 10px 10px 10px black;
+}
+/*#wildlife a{
+  text-decoration: none;
+  color: orangered;
+}*/
+#wildlife h2{
+  margin: -20px 150px;
+  font-family: "goyfont";
+  font-size: 50px;
+}
+#wildlife p{
+  margin: 50px 150px;
+  font-family: "work sans";
+
+}
+.column img{
+  width: 100%;
+  margin:40px 0px 0px 0px ;
+}
+.column{
+  display: inline-block;
+  vertical-align: top;
+  width: 46%;
+  position: relative;
+}
+.column:first-child{
+  margin-right: 7%; 
+}
+
+.column:hover:after{
+  content: "save";
+  background-color: orange;
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  color: white;
+  border-radius: 5px ;
+  font-size: 15px;
+font-family: "work sans";
+
+  
+}
+/*.column ul li a{
+  text-decoration: none;
+  color: orange;
+  
+}*/
+
+section{
+  border-bottom: dashed ;
+  padding-bottom: 100px;
+  max-width: 1000px;
+  width: 70%;  
+  margin:auto;
+}
+.main-footer{
+  text-align: center;
+  text-decoration: none;
+}
+/*.main-footer a{
+  text-decoration: none;
+  color: orange;
+}*/
+a{
+  text-decoration: none;
+  color: orange;
+}
